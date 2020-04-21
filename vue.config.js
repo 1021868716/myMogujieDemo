@@ -1,0 +1,18 @@
+module.exports={
+    //基本路径
+    publicPath:'./',
+    //输出文件目录
+    outputDir:'dist',
+    configureWebpack:{
+        resolve:{
+            alias:{
+                //配置路径别名
+                'assets':'@/assets',
+                'common':'@/common',
+                'components':'@/components',
+                'network':'@/network',
+                'views':'@/views'
+            }
+        }
+    }
+}
